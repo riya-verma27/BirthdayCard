@@ -1,0 +1,30 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:src="@drawable/androidparty"
+        android:layout_width="1000dp"
+        android:layout_height="1800dp"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:text="Happy Birthday Dear!!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/white"
+        android:padding="20dp"/>
+    <TextView
+        android:text="Frome, XYZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/white"
+        android:padding="20dp"/>
+</RelativeLayout>
